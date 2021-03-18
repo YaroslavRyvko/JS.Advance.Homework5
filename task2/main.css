@@ -1,0 +1,60 @@
+.container {
+    margin: 100px auto;
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    padding: 20px 20px;
+    width: 260px;
+    height: 420px;
+    border: 1px solid rgb(128, 125, 125);
+    border-radius: 4px;
+    background-color: rgb(226, 221, 221);
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+.radios {
+    margin-top: 17px;
+}
+
+.buyButton,
+.addButton {
+    margin-top: 14px;
+    background-color: rgb(180, 180, 180);
+    color: black;
+    border: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+   
+}
+
+.addButton:focus {
+    border: 1px solid rgb(12, 39, 128);
+    outline: none;
+}
+.buyButton:focus {
+    border: 1px solid rgb(12, 39, 128);
+    outline: none;
+}
+
+.textarea {
+    margin-top: 14px;
+    resize: none;
+    height: 100px;
+}
+
+.info{
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 300px;
+}
